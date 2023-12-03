@@ -12,9 +12,9 @@ public class Person {
 
     public String countryOfBirth;
 
-    public String gender;
+    public char gender;
 
-    public Person(String name, String sur, Number id, Number year, String country, String gender) {
+    public Person(String name, String sur, Number id, Number year, String country, char gender) {
         this.name = name;
         this.surname = sur;
         this.idNumber = id;
