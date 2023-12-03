@@ -18,10 +18,7 @@ public class Person {
     }
 
     public void printPersonInfo() {
-        System.out.println(this.name);
-        System.out.println(this.surname);
-        System.out.println(this.idNumber);
-        System.out.println(this.yearOfBirth);
+        System.out.println("Name: " + this.name + "\n" + "Surname: " + this.surname + "\n" + "ID Number: " + this.idNumber + "\n" + "Year of birth: " + this.yearOfBirth);
     }
 
     // public void setName(String name) {
