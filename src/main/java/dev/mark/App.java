@@ -13,10 +13,8 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        Person mark = new Person("Mark", "Kil", 2348754, 1994);
-        Person giacomo = new Person("Giacomo", "Corso", 1111222, 1916);
+        Person mark = new Person("Mark", "Kil", 1234326, 1994, "Russia", "H");
         mark.printPersonInfo();
         System.out.println("---------------------------------");
-        giacomo.printPersonInfo();
     }
 }

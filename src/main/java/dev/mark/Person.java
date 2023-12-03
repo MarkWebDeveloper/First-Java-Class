@@ -10,27 +10,20 @@ public class Person {
 
     public Number yearOfBirth;
 
-    public Person(String name, String sur, Number id, Number year) {
+    public String countryOfBirth;
+
+    public String gender;
+
+    public Person(String name, String sur, Number id, Number year, String country, String gender) {
         this.name = name;
         this.surname = sur;
         this.idNumber = id;
         this.yearOfBirth = year;
+        this.countryOfBirth = country;
+        this.gender = gender;
     }
 
     public void printPersonInfo() {
-        System.out.println("Name: " + this.name + "\n" + "Surname: " + this.surname + "\n" + "ID Number: " + this.idNumber + "\n" + "Year of birth: " + this.yearOfBirth);
+        System.out.println("Name: " + this.name + "\n" + "Surname: " + this.surname + "\n" + "ID Number: " + this.idNumber + "\n" + "Year of birth: " + this.yearOfBirth + "\n" + "Country of birth: " + this.countryOfBirth + "\n" + "Gender: " + this.gender);
     }
-
-    // public void setName(String name) {
-    //     this.name = name;
-    // }
-
-    // public void printNameReversed() {
-    //     System.out.println("print desde método NameReversed");
-    // }
-
-    // public String removeVocals() {
-    //     return name;
-    // }
-
 }
