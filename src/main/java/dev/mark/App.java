@@ -14,7 +14,7 @@ public final class App {
      */
     public static void main(String[] args) {
         Person mark = new Person("Mark", "Kil", 1234326, 1994, "Russia", 'H');
-        Person giacomo = new Person("Giacomo", "Corso", 1112234, 1914, "France", 'M');
+        Person giacomo = new Person("Giacomo", "Corso", 1112234, 1985, "France", 'H');
         mark.printPersonInfo();
         System.out.println("---------------------------------");
         giacomo.printPersonInfo();
